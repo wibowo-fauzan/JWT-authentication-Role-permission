@@ -1,13 +1,15 @@
+/* src/index.css */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    background-color: #f8f9fa; /* Warna latar belakang untuk kontras yang lebih baik */
+  }
+  
+  .container {
+    max-width: 600px; /* Menentukan lebar maksimum kontainer */
+  }
+  
+  .form-container {
+    background-color: #fff; /* Warna latar belakang putih untuk formulir */
+    padding: 20px; /* Padding di sekitar formulir */
+    border-radius: 8px; /* Sudut membulat untuk formulir */
+  }
+  
