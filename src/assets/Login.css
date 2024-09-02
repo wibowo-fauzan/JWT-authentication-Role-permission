@@ -1,5 +1,9 @@
 .login-card {
-    padding: 100px!important;
+    padding: 50px!important;
+}
+
+.card-minus {
+    margin-top: -80px;
 }
 
 hr {
